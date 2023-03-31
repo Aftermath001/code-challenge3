@@ -1,0 +1,30 @@
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    border-radius: 5px;
+    margin: 3rem;
+    background-color: rgba(12, 0, 0, 0.981);
+    display: inline-table;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+nav {
+    height: 360%;
+    width: 160px;
+    position: relative;
+    background-color: #111;
+    padding-top: 16px;
+    float: left;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    
+}
+body{
+    height: 100vh;
+    width: 100%;
+
+}
