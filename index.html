@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
 </head>
-<body><nav>
+<body style="background-color: aqua;">
+ 
+    <nav>
     <div class="sidebar">
       
          <li><a href="#home"><i class="fa fa-fw fa-home"></i> Movies</a></li>
@@ -20,7 +22,26 @@
        </div>
        </nav>
     
-    <div class ="Films"></div>
+    <div class ="moviefilms">
+        <h1 style="text-align: center;">FLATDANGO</h1>
+    </div>
+    <form style="background-color: brown;">
+        <fieldset>
+            <legend>INPUT DETAILS</legend>
+       
+            <p> <label>title: <input type="text" /></label> </p>
+            <p> <label>capacity: <input type="text" /></label> </p>
+            <p> <label>runtime: <input type="text" /></label> </p>
+            <p> <label>showtime: <input type="time" /></label> </p>
+            <p> <label>poster: <input type="text" /></label> </p>
+
+    <button id="submit" name="submit">SUBMIT</button>
+    <button id="edit">EDIT</button>
+    <button id="delete">DELETE</button>
+ 
+    </fieldset>
+    </form>
+      
     <script src="index.js"></script>
 </body>
 </html>
